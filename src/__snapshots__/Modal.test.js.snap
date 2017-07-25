@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders nothing when closed 1`] = `null`;
+
+exports[`Modal renders when open 1`] = `
+<div
+  className="backdrop"
+  style={
+    Object {
+      "backgroundColor": "rgba(0,0,0,0.3)",
+      "bottom": 0,
+      "left": 0,
+      "padding": 50,
+      "position": "fixed",
+      "right": 0,
+      "top": 0,
+    }
+  }
+>
+  <div
+    className="modal"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "borderRadius": 5,
+        "margin": "0 auto",
+        "maxWidth": 500,
+        "minHeight": 300,
+        "padding": 30,
+      }
+    }
+  >
+    <div
+      className="footer"
+    >
+      <button
+        onClick={[Function]}
+      >
+        Close
+      </button>
+    </div>
+  </div>
+</div>
+`;
